@@ -166,9 +166,7 @@ background-color: transparent;
     position: center;
     text-align: center;
     align-items: center;
-    flex: content
-    
-    
+        
 }
 
 .stafT{
@@ -405,3 +403,186 @@ background-color: transparent;
 
 #error{
 color: #f14f3f;  }
+
+@media (min-width:320px) {
+    *{
+        justify-items: center;
+        background-color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+            
+        
+    }
+    #navigation-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: red;
+        transform: translateX(-100vw);
+        transition: 0.5s;
+              
+    }
+    
+    ul {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        float: right;
+    }
+    
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px 15px;
+        opacity: 0.7;
+        
+    }
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    h2{
+        color: aliceblue;
+        font-size: 28px;
+     
+    }
+    
+    p{
+        color: aliceblue;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    img{
+        justify-content: center;
+         background-color: #f14f3f;
+         width: 300px;
+        
+
+    }
+    .logo{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        float: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .pres{
+        text-align: center;
+        text-size-adjust: 20px;
+        background-color: transparent;
+        background-position: center;
+        }  
+        
+        #title{ 
+          background-color: transparent;
+           margin: 0px; padding: 0px;
+                }
+            
+         #text{
+          margin: 0px; padding: 0px 5px 0px 5px;
+          background-color: transparent;
+
+           }
+
+        /* .staffbody{
+            border-color: #352d2f;
+            font-size: 18px;
+            display: flex ;
+            flex-direction: column; 
+           
+        }
+                   
+    
+    .staff{
+        background-color: rgb(94, 94, 94);
+        color: #f14f3f;
+        font-size: 20;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        
+            
+        }
+        
+        .stafT{
+            background-color: rgb(94, 94, 94);
+            color: #f14f3f;
+            font-size: 20;
+            text-align: center;
+            width: 300px;
+        }
+        
+        .sInfo{ 
+            background-color:#f14f3f;
+            width: 300px;
+                       
+        }
+        .cont{
+             flex-direction: column-reverse;
+             
+             }             
+         .caja1{
+                align-items: center;   
+                justify-content: center;
+        }
+        
+        .caja2{       
+            align-items: center;   
+            justify-content: center;
+        }
+        
+        .caja3{
+            align-items: center;   
+            justify-content: center;    
+        }
+         
+        /* .contact{
+            padding: 0px 10px 0px 10px;
+            margin: 0px 10px 0px 10px ;
+        }
+        .bloqueCont{
+           flex-wrap: wrap;
+           position: relative;;
+                     
+        }
+
+        .movil{    
+            width: 200%;
+         position: relative;
+        }
+        
+        #titleMov{
+            justify-content: left;
+                       
+        }
+
+        #textMov{
+            justify-content: left;
+            width: 350px;
+        }
+
+
+        .form-group{
+            width: 350px;
+            object-position: center;
+        }
+
+
+       .iframe{
+        width: 350px;
+        justify-content: center;
+    
+       } */
+    } 
+/* formulario para entregar tp https://docs.google.com/forms/d/e/1FAIpQLSc-MGqsLzkixgKbjASlkTueosqELPHSAyp0Q6PLkJlfrGNvXQ/viewform */
