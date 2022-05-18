@@ -404,7 +404,7 @@ background-color: transparent;
 #error{
 color: #f14f3f;  }
 
-@media (min-width:320px) {
+@media (max-width:420px) {
     *{
         justify-items: center;
         background-color: black;
@@ -495,7 +495,7 @@ color: #f14f3f;  }
 
            }
 
-        /* .staffbody{
+        .staffbody{
             border-color: #352d2f;
             font-size: 18px;
             display: flex ;
@@ -547,7 +547,7 @@ color: #f14f3f;  }
             justify-content: center;    
         }
          
-        /* .contact{
+        .contact{
             padding: 0px 10px 0px 10px;
             margin: 0px 10px 0px 10px ;
         }
@@ -583,6 +583,6 @@ color: #f14f3f;  }
         width: 350px;
         justify-content: center;
     
-       } */
+       }
     } 
 /* formulario para entregar tp https://docs.google.com/forms/d/e/1FAIpQLSc-MGqsLzkixgKbjASlkTueosqELPHSAyp0Q6PLkJlfrGNvXQ/viewform */
