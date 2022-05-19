@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Be Fitness</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <header>
+        <section #navigation-contain> 
+            
+            <img class="logo"src="/imagenes/logo.png" alt="Imagen not found"width="200" >
+            <ul>
+                <li><a href="/index.html">Inico</a></li>
+                <li><a href="/actividades.html">Actividades</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+    </header> 
+    <body class="contact">
+        <section class="bloqueCont" style="display: flex;justify-content: center;">
+            <div class="movil">
+                <h2 id="titleMov">Contactanos</h2>
+                <p id="textMov">Dejanos tu consulta o sujerencia, a la brevedad alguien del equipo se contactara contigo.</p>
+                <form id="validForm">
+                    <div class="form-group">
+                        <label for="InputNombre">Nombre</label><br>
+                        <input type="text" class="form-control" id="InputNombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail">Email</label><br>
+                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputAsunto">Asunto</label><br>
+                        <input type="text" class="form-control" id="InputAsunto" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputMensaje">Mensaje</label><br>
+                        <input type="text" class="form-control" id="InputMensaje" placeholder="Mensaje">
+                    </div>
+                    <button type="submit" class="btn btn-primary" return onclick="sendForm()" value="send">Enviar</button>
+                </form>
+                <div id="error"></div>
+            </div>
+            <div class="iframe">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2356.7776885850953!2d-67.73147753206945!3d-53.79344418584027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgimnasio!5e0!3m2!1ses!2sar!4v1651595265551!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <footer class="styleF">
+            <img class="logo"src="/imagenes/logo.png" alt="Imagen not found"width="150" >
+            <div> 
+                <p class="footer">En BeSport cuidamos tu salud, por eso te recordamos que tu apto médico es indispensable al momento de iniciar una actividad física (leyes nº 139 y 12329)
+                    Copyright (c) 2022 BEFITNESS Todos los derechos reservados.</p>
+                </div>
+            </footer>
+         <script src="js/app.js"></script>
+        </body>
+</html>
