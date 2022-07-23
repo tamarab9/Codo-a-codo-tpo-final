@@ -21,9 +21,7 @@ formulario del sitio web.
 Ejemplo: GitHub Pages, Netlify, 000webhost o similares.
 ● Además de los aspectos técnicos ya mencionados, el proyecto deberá contemplar aspectos
 de diseño los cuales serán evaluados por el Docente. Para eso se recomienda que vean el
-material disponible en el Aula Virtual. Seminario de Diseño Web:
-https://youtu.be/fVkGt2tYIj0. Para más información, ver material incluído en el Aula Virtual
-Metodologías y herramientas I/Diseño.
+material disponible en el Aula Virtual.
 ● Nota: el TPO es individual pero en caso querer resolver el proyecto de forma grupal,
 deberán sincronizar el código del TPO en Github (o similar) enviando el link del repositorio al
 Docente. Este requisito obligatorio sólo aplica para los proyectos que se desarrollen de a 2
